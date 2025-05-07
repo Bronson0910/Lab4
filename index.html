@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+
+    <style>
+        span{
+            width:200px;
+            height: 200px;
+            display:inline-block;
+        }
+
+        #rect{
+            width:300px;
+            height:200px;
+            display:inline-block;
+        }
+      </style>
+    
+  </head>
+  
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <h1 class="display-1">Task 1</h1>
+    <div class="container">
+    <h1 class="bg-warning text-white d-inline">This is my sample code</h1>
+    <h1 class="bg-success text-white d-block">This is my sample code</h1>
+    <h1 class="bg-dark text-white d-none">This is my sample code</h1>
+    <span class="bg-danger text-white d-sm-block">This is my sample code</span>
+    <span class="bg-primary text-white d-sm-block">This is my sample code</span>
+    </div>
+
+    <h1 class="display-1">Task 2
+    <div class="container">
+    <span class="d-inline d-sm-none text-dark">This is my sample code</span>
+    <span class="d-inline d-sm-none text-danger">This is my sample code</span>
+    <span class="d-none d-md-none d-lg-none text-warning">This is my sample code</span>
+    <span class="d-none d-lg-none d-md-none text-info">This is my sample code</span>
+    </h1>
+    </div>
+    
+
+
+    <h1 class="display-1">Task 3</h1>
+    <div class="container p-3">
+    <span class="border border-strat bg-danger m-1">Hi</span>
+    <span class="border border-end bg-warning m-2">Hello</span>
+    <span class="border border-top bg-success m-3">Thanks</span>
+    <span class="border border-start bg-primary m-4">Bye</span>
+    <span class="border border-bottom text-light bg-dark m-5">Bye</span>
+    <span class="border border-end bg-info m-6">Bye</span>
+
+    </div>
+
+    <h1 class="display-1">Task 4</h1>
+    <div class="container p-3">
+    <span class="border-0">Bye</span>   
+    <span class="border border-strat-0 border-warning p-1">Hi</span>
+    <span class="border border-end-0  border-danger p-2">Hello</span>
+    <span class="border border-top-0 border-primary p-3">Thanks</span>
+    <span class="border border-end-0 border-info p-4">Bye</span>
+    <span class="border border-bottom-0 border-dark p-5">Bye</span>
+    <span class="border border-start-0 border-danger p-6">Bye</span>
+    </div>
+
+    <h1 class="display-1">Task 5</h1>
+    <div class="container p-3">
+    <span class="border border-1 border-primary">Hi</span>
+    <span class="border border-2 border-secondary">Hello</span>
+    <span class="border border-3 border-info">Thanks</span>
+    <span class="border border-4 border-success">Bye</span>
+    <span class="border border-5 border-danger">Bye</span>
+    <span class="border border-6 border-warning">Bye</span>
+    <span class="border border-5 border-danger rounded-circle">Hi</span>
+    <span class="border border-4 border-warning rounded-pill" id="rect">Henloo</span>
+    </div>
+
+    
+    <h1 class="display-1">Task 6</h1>
+    <div class="border border-success text-dark shadow-sm p-3 mb-5 bg-body rounded">Small shadow</div>
+    <div class="border border-warning shadow-md p-5 mb-5  bg-body rounded">Medium shadow</div>
+    <div class="border border-dangershadow-lg p-5 mb-5 bg-body rounded">Large shadow</div>
+    <div class="border border-primary text-light shadow p-5 mb-5 bg-dark rounded">Shadow</div>
+  </body>
+</html>
